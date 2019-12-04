@@ -1,2 +1,2 @@
-# samurai_kadai_ckick
+# samurai_kadai_click
 侍エンジニア塾のclickリポジトリです
