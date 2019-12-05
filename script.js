@@ -1,5 +1,5 @@
-var canvas = document.getElementById ('sample');
-var ctx = canvas.getContext ('2d');   
+var canvas = document.getElementById('sample');
+var ctx = canvas.getContext('2d');   
 
 var img = new Image();
 img.src = "shougi.png";
@@ -21,8 +21,8 @@ function onClick(e) {
     y = e.clientY - Math.floor(rect.top);
     
     //画像の表示位置を0ではなく画像の縦横半分の大きさを指定してクリックしたとき中央にする
-    ctx.drawImage (img , x-img.width/2 , y-img.height/2);
+    ctx.drawImage(img , x-img.width/2 , y-img.height/2);
 
 }
 
-canvas.addEventListener ('click' , onClick , false);
+canvas.addEventListener('click' , onClick , false);
